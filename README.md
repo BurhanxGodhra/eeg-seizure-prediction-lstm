@@ -1,18 +1,11 @@
-# eeg-lstm-pipeline
+# EEG Seizure Prediction with LSTM
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BurhanxGodhra/eeg-lstm-pipeline/blob/main/lstm_model_pipeline.ipynb)
 
-LSTM neural network pipeline for continuous neural time-series data.
+An experimental LSTM pipeline for exploring seizure prediction from EEG recordings.
 
-## Overview
-This repository contains a standalone Jupyter/Colab notebook setup for rapid execution and reproducibility.
+The project uses preictal EEG segments, temporal sequences, and an LSTM model to investigate whether patterns preceding seizures can be learned from neural signals.
 
-## Quickstart
-1. Click the **Open in Colab** badge above to launch directly in Google Colab.
-2. To run locally:
-   ```bash
-   git clone https://github.com/BurhanxGodhra/eeg-lstm-pipeline.git
-   cd eeg-lstm-pipeline
-   pip install -r requirements.txt
-   jupyter notebook lstm_model_pipeline.ipynb
-   ```
+**Dataset:** CHB-MIT Scalp EEG
+
+**Tools:** Python · MNE · TensorFlow · LSTM
